@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC</title>
+    <script type="text/javascript">
+        function imc () {
+            // Lembrando que o document se trata do DOM
+            var altura = document.imcform.elements['altura'].value;
+
+            var peso = document.imcform.elements["peso"].value;
+
+            var resultado = peso/(altura*altura);
+           // alert("O seu imc:"+resultado)
+           alert(`O seu imc:${resultado}`)
+     
+           
+        }
+
+    </script>
+
+</head>
+<body>
+    <form  id="imcform" name="imcform" action="#">
+        <label for="altura">Informe a altura:</label>
+        <input  type="text" id="altura" name="altura" placeholder="Altura"><br>
+
+        <label for="peso">Iforme o peso:</label>   
+        <input type="text" id="peso" name="peso" placeholder="Peso"><br>
+
+        <input type="submit" value="calcular" onclick="imc()">
+</body>
+</html>

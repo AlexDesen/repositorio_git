@@ -1,0 +1,75 @@
+ 
+          /**/
+        /* este "*" e o pandding = 0 cola a página 
+        na parte superior da tela*/
+        /*A grande sacada é separar os elementos em uma div para para aplicar
+        as propriedades da mesma.*/
+        *{
+            margin: 0;
+            padding: 0;        
+        }
+        body{/*Parâmetros de tamanho da fonte para todo texto 
+            encontrado no body.*/  
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 22px;
+            font-weight:500;
+            letter-spacing:1px;/*Espaço entre letras*/
+        }
+        #cabecalho{/*Parâmetros de dimesões da div*/  
+            /*Centralizando a div cabeçalho na tela, 
+            valor 0 para a margem superior e inferior e valores
+            iguais para as laterais*/ 
+                       
+            height:75px;
+            margin: 0 auto;
+            width:95%;
+            background-color:grey;
+            font-size:16px ;
+            text-align: center;/*Centralizando o texto na div.*/
+        
+
+             
+        }
+        #menu{
+            height:470px;
+            width:200px;
+            background-color:lightgray ;
+            float:left;
+            margin-left: 60px;/*margin-left a rasta a div 
+            neste caso para esquerda*/
+            margin-top: 10px;/*margin-top realiza a separação
+             entre as divs*/ 
+             text-align: center;
+            
+        
+        }/**/ 
+        #principal{                    
+            height:470px;
+            width:600px;
+            background-color:lightgray ;
+            float:left;
+            margin-top: 10px;
+            margin-left: 10px;/*margin-left realizar a separação à esqueda da div*/ 
+            margin-bottom: 10px;
+            text-align: center; /*comando para alinha o texto na div*/
+        }
+
+        #lado{
+
+                height:340px;
+                width:200px;
+                background-color:lightseagreen ;
+                float:left;/* O float realiza o flutuamento da div
+                 neste caso para esquerda*/
+                 margin-top: 10px;    
+                 margin-bottom: 10px; /*Realizar a separção da região inferior da div*/  
+             } 
+
+        
+        #rodape{
+            height:100px;
+            background-color: pink;
+            clear:both;
+            margin: 0 auto;
+            width:95%;
+        }  

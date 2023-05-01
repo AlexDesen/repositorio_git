@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="forms.css">
+</head>
+<body>
+    <div id="cabecalho">
+        Header
+       
+    </div>
+    
+    <div id="menu">
+    
+        
+    </div>
+
+    <div id="principal">
+        <p>Fomulário de Contato</p>
+        <div><!--div para o formulário-->
+            <form id="formulario"><!--Tag para criação de formulário-->
+                <fieldset><!--esta tag fieldset em conjundo com a tag  legend nomeia uma "borada em volta do formulário."-->
+                    <div id="legenda">
+                        <legend>Informe seus dados</legend>
+                    </div>
+
+                    <label for="name">Nome:</label><!--Tag para criar uma entiqueta-->
+                    <input type="text" name="name"><br><!--Tag para pula de linha-->
+
+                    <label for="telefone">Telefone:</label>
+                    <input type="text" name="telefone"><br>
+
+                    <label for="cidade">Cidade:</label>
+                    <select name="cyte" id="cyte"><!--Caixa da seleção-->
+                    <option value="0">Selecione a cidade</option><!--Texto dentro da caixa-->
+                    <option value="BA">Salvador</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="SP">São Paulo</option>
+                    </select><br>
+
+                    <label for="email">E-mail:</label>
+                    <input type="text" name="email"><br>
+
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea name="texto" id="texto" cols="30" rows="10"></textarea><!--Tag para área de texto cols = coluna ruws = linnhas eles almentam o tamanho da caixa.-->
+                    <!--Existe duas maneiras de implementar os botões: atravéz da tag buttom ou input-->
+                
+                </fieldset>
+
+                <div id="botao">       
+
+                    <input type="reset"  id="reset" value="Limpar"><!--Implementado botões, o value é o que esta escrito no botão-->
+                    <input type="submit"  id="enviar" value="Enviar">
+
+                </div>
+            </form>       
+        <div>  
+                    
+    </div>
+    
+      
+    <div id="lado">
+        Aside
+    </div>
+
+    <div id="rodape">
+        Footer
+
+    </div>
+
+</body>
+</html>

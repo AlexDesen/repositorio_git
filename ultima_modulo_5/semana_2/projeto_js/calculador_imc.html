@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calvuladota IMC</title>
+    <!-- Document Object Model - DOM- é uma estrutura única que 
+         da acesso a todos os elementos definidos no código html -->
+         <!--O DOM é um documeto, passos:
+        na página, com o botão direito - inspersionar - na aba console- digita document-->
+        <!--O js acessa o DOM para ter acesso aos valores iseridos e realizar os calculos-->
+
+        <script type="text/javascrip">
+              
+        </script>   
+
+</head>
+<body>
+
+    <!-- O atributo""name" aponta os dados que serão processados ("nomeia um conjunto de dados")  -->
+    <!--O atributo "action" aponta onde os dados serão processados seja local ou atravéz de um servidor.-->
+    <!--A utilização do "#" significa que o processamento sera feito na própria página, o navegador não 
+    precisará visitar uma outra página para realizar o processamento.-->
+
+    <form id="imcForm" neme="imcForm" action="#"></form>
+        <label for="altura">Insira a altura:</label>
+        <input type="text" name="altura" id="altura"><br> <!--id é a indentifição para a label--><!--tag br é utilizado para quebra a linha-->
+
+        <label for="peso">Insita o peso:</label>
+        <input type="text" name="peso" id="peso"><br>
+        <!--O atributo onclick associa o click do botão com a excução da função.-->
+        <input type="submit" value="calular" onclick="calculaImc()">
+
+        
+</body>
+</html>

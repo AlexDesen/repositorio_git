@@ -1,0 +1,47 @@
+h1{
+    color:chartreuse;
+}
+
+p{
+    color:blue;
+    height:auto;
+}
+
+.primeira{
+    /*Tamanho da fonte 16px é o tamanho normal da fonte */
+    /* 16px é relativamente igual a 1em */
+    /* lembrando que 1em é o dobro de 16px */
+    /* peso da fonte: font-weight,valores: lighter, normal ,bold, bolder 
+    , outros valores são valores numericos de 100 a 900*/
+    /* Atributos de uma div:display:   id, class, border, height, width */
+
+    background-color: blueviolet;
+    color:black;
+    width:50%;
+    height:100%; 
+    font-family:Arial,Impact; /*família de fontes*/
+    font-size: 1em; /*tamanho das fontes*/
+    font-weight:lighter;/*peso das fontes*/
+    font-style: italic; /*estilo das fontes*/
+}
+
+.segundo{
+    background-color: brown;
+    width: 100%;
+    height: 100%;
+    font-family: Arial;
+    font-size:1em;
+    font-weight: 900;
+    font-style:italic;
+    color:chartreuse;
+    height: 50px;
+    border:2em;
+
+}
+ 
+.terceiro{
+    height:100%;
+    width:100%; 
+    background-color: chartreuse;  
+    
+}

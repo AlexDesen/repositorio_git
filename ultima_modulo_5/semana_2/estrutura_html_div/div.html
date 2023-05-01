@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estilo css</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+        
+          /**/
+        /* este "*" e o pandding = 0 cola a página 
+        na parte superior da tela*/
+        *{
+            margin: 0;
+            padding: 0;        
+        }
+        body{/*Parâmetros de tamanho da fonte para todo texto 
+            encontrado no body.*/  
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 16px;
+        }
+        #cabecalho{/*Parâmetros de dimesões da div*/  
+            /*Centralizando a div cabeçalho na tela, 
+            valor 0 para a margem superior e inferior e valores
+            iguais para as laterais*/ 
+                       
+            height:150px;
+            margin: 0 auto;
+            width:95%;
+            background-color:coral;
+            font-size:16px ;
+        
+
+             
+        }
+        #menu{
+            height:340px;
+            width:200px;
+            background-color: greenyellow;
+            float:left;
+            margin-left: 60px;/*margin-left a rasta a div 
+            neste caso para esquerda*/
+            margin-top: 10px;/*margin-top realiza a separação
+             entre as divs*/ 
+            
+        
+        }/**/ 
+        #principal{                    
+            height:500px;
+            width:800px;
+            background-color:lightgray ;
+            float:left;
+            margin-top: 10px;
+            margin-left: 10px;/*margin-left realizar a separação à esqueda da div*/ 
+            margin-right: 10px;
+            margin-bottom: 10px;
+        }
+        #lado{
+            height:340px;
+            width:200px;
+            background-color:lightseagreen ;
+            float:left;/* O float realiza o flutuamento da div
+             neste caso para esquerda*/
+             margin-top: 10px;    
+             margin-bottom: 10px; /*Realizar a separção da região
+              inferior da div*/           
+        }
+        #rodape{
+            height:100px;
+            background-color: pink;
+            clear:both;
+            margin: 0 auto;
+            width:95%;
+          
+           
+           
+
+
+        }
+    </style>
+
+</head>
+<body>
+    <div id="cabecalho">Header
+        <div>
+            <h1>Estrutura de estilização css</h1>
+        </div>
+    </div>
+    
+    <div id="menu">
+        nav
+        <div>
+            <ul>
+                <li><a href="https://www.youtube.com/watch?v=9Tij8W-k6Lk"></a>Estrutura div</li>
+                <li><a href=""></ahttps://www.youtube.com/>Link do youtube</li>
+                <li><a href="https://www.youtube.com/watch?v=DGlH9jhMDo8"></li>Vídeo Guanabara</li>
+            </ul>
+        </div>
+
+    </div>
+
+    <div id="principal">
+        Main
+
+    </div> 
+      
+    <div id="lado">
+        Aside
+    </div>
+
+    <div id="rodape">
+        Footer
+
+    </div>
+
+</body>
+</html>

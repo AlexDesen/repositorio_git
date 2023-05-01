@@ -1,0 +1,73 @@
+p{
+    text-align: center; /*Centralizando o texto dentro de div*/
+}
+
+#formulario{
+    /* border: 1px solid black;(cria uma borada) */
+    padding: 15px;/* para afastar o conteúdo da div*/
+}
+
+fieldset{
+    font-size:16px;
+    background-color: whitesmoke;
+    border:0,8px solid gray/*mudando a cor da borda*/;
+    border-radius: 10px;
+}
+#legenda{
+    margin-left:10px;
+    text-align: left;
+}
+
+label{/*Parâmetros relaciondados as "labels"*/
+    margin-left: 20px;/*afastando da esquerda todas as  "labels"*/
+    display: inline-block;/*aplica o mesmo afastamento entre labels e os campos de preenchimento*/
+    width:120px;/*os valores aplicados no width determina de quanto será o afastamento do inline-block*/
+}
+
+input[type = text]{ /*aplicando estilização para os "inputs"*/
+    width:500px;
+    padding:10px;/*aumenta o preenchimento interno do input*/
+    margin-top: 10px;
+    box-sizing: border-box;/*Cria uma tamanho padrão para todos os "inputs"*/
+}  
+
+#cyte{
+    width:500px;
+    padding:10px;/*aumenta o preenchimento interno do input*/
+    margin-top: 10px;
+    box-sizing: border-box;/*Cria uma tamanho padrão para todos os "inputs"*/
+}
+
+#texto{
+    width:500px;
+    padding:10px;/*aumenta o preenchimento interno do input*/
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+
+input[type = reset]{ /*aplicando estilização para os "inputs"*/
+    width:280px;
+    padding:5px;/*aumenta o preenchimento interno do input*/
+    box-sizing: border-box;/*Cria uma tamanho padrão para todos os "inputs"*/
+    background-color: blue;/*cor do botão*/
+    border:none;/*retirando a borda do botão*/
+    border-radius:10px ;/*arredondando a borda do botão*/
+    color:white;/*cor do texto*/
+    font-weight: 500;
+}  
+
+input[type = submit]{ /*aplicando estilização para os "inputs"*/
+    width:280px;
+    padding:5px;/*aumenta o preenchimento interno do input*/
+    box-sizing: border-box;/*Cria uma tamanho padrão para todos os "inputs"*/
+    background-color: green;/*cor do botão*/
+    border:none;/*retirando a borda do botão*/
+    border-radius:10px ;/*arredondando a borda do botão*/
+    color:white;/*cor do texto*/
+    font-weight: 500;
+}  
+
+#botao{
+ margin: top 10px;
+ text-align:center; /*Centralizando os botões na div*/  
+}
